@@ -1,0 +1,353 @@
+[
+	{
+		"meta": {
+			"symbol": [
+				"JNJ"
+			],
+			"type": [
+				"quarterlyChangesInCash"
+			]
+		},
+		"timestamp": [
+			1601424000,
+			1609372800,
+			1617148800,
+			1625011200,
+			1632960000
+		],
+		"quarterlyChangesInCash": [
+			{
+				"dataId": 26027,
+				"asOfDate": "2020-09-30",
+				"periodType": "3M",
+				"currencyCode": "USD",
+				"reportedValue": {
+					"raw": 7760000000.0,
+					"fmt": "7.76B"
+				}
+			},
+			{
+				"dataId": 26027,
+				"asOfDate": "2020-12-31",
+				"periodType": "3M",
+				"currencyCode": "USD",
+				"reportedValue": {
+					"raw": -5204000000.0,
+					"fmt": "-5.20B"
+				}
+			},
+			{
+				"dataId": 26027,
+				"asOfDate": "2021-03-31",
+				"periodType": "3M",
+				"currencyCode": "USD",
+				"reportedValue": {
+					"raw": -1236000000.0,
+					"fmt": "-1.24B"
+				}
+			},
+			{
+				"dataId": 26027,
+				"asOfDate": "2021-06-30",
+				"periodType": "3M",
+				"currencyCode": "USD",
+				"reportedValue": {
+					"raw": 1616000000.0,
+					"fmt": "1.62B"
+				}
+			},
+			{
+				"dataId": 26027,
+				"asOfDate": "2021-09-30",
+				"periodType": "3M",
+				"currencyCode": "USD",
+				"reportedValue": {
+					"raw": 3364000000.0,
+					"fmt": "3.36B"
+				}
+			}
+		]
+	},
+	{
+		"meta": {
+			"symbol": [
+				"JNJ"
+			],
+			"type": [
+				"trailingChangesInCash"
+			]
+		},
+		"timestamp": [
+			1632960000
+		],
+		"trailingChangesInCash": [
+			{
+				"dataId": 26027,
+				"asOfDate": "2021-09-30",
+				"periodType": "TTM",
+				"currencyCode": "USD",
+				"reportedValue": {
+					"raw": -1460000000.0,
+					"fmt": "-1.46B"
+				}
+			}
+		]
+	},
+	{
+		"meta": {
+			"symbol": [
+				"JNJ"
+			],
+			"type": [
+				"quarterlyNetIncomeContinuousOperations"
+			]
+		},
+		"timestamp": [
+			1601424000,
+			1609372800,
+			1617148800,
+			1625011200,
+			1632960000
+		],
+		"quarterlyNetIncomeContinuousOperations": [
+			{
+				"dataId": 20094,
+				"asOfDate": "2020-09-30",
+				"periodType": "3M",
+				"currencyCode": "USD",
+				"reportedValue": {
+					"raw": 3554000000.0,
+					"fmt": "3.55B"
+				}
+			},
+			{
+				"dataId": 20094,
+				"asOfDate": "2020-12-31",
+				"periodType": "3M",
+				"currencyCode": "USD",
+				"reportedValue": {
+					"raw": 1738000000.0,
+					"fmt": "1.74B"
+				}
+			},
+			{
+				"dataId": 20094,
+				"asOfDate": "2021-03-31",
+				"periodType": "3M",
+				"currencyCode": "USD",
+				"reportedValue": {
+					"raw": 6197000000.0,
+					"fmt": "6.20B"
+				}
+			},
+			{
+				"dataId": 20094,
+				"asOfDate": "2021-06-30",
+				"periodType": "3M",
+				"currencyCode": "USD",
+				"reportedValue": {
+					"raw": 6278000000.0,
+					"fmt": "6.28B"
+				}
+			},
+			{
+				"dataId": 20094,
+				"asOfDate": "2021-09-30",
+				"periodType": "3M",
+				"currencyCode": "USD",
+				"reportedValue": {
+					"raw": 3667000000.0,
+					"fmt": "3.67B"
+				}
+			}
+		]
+	},
+	{
+		"meta": {
+			"symbol": [
+				"JNJ"
+			],
+			"type": [
+				"quarterlyRetainedEarnings"
+			]
+		},
+		"timestamp": [
+			1601424000,
+			1609372800,
+			1617148800,
+			1625011200,
+			1632960000
+		],
+		"quarterlyRetainedEarnings": [
+			{
+				"dataId": 23204,
+				"asOfDate": "2020-09-30",
+				"periodType": "3M",
+				"currencyCode": "USD",
+				"reportedValue": {
+					"raw": 114831000000.0,
+					"fmt": "114.83B"
+				}
+			},
+			{
+				"dataId": 23204,
+				"asOfDate": "2020-12-31",
+				"periodType": "3M",
+				"currencyCode": "USD",
+				"reportedValue": {
+					"raw": 113890000000.0,
+					"fmt": "113.89B"
+				}
+			},
+			{
+				"dataId": 23204,
+				"asOfDate": "2021-03-31",
+				"periodType": "3M",
+				"currencyCode": "USD",
+				"reportedValue": {
+					"raw": 116508000000.0,
+					"fmt": "116.51B"
+				}
+			},
+			{
+				"dataId": 23204,
+				"asOfDate": "2021-06-30",
+				"periodType": "3M",
+				"currencyCode": "USD",
+				"reportedValue": {
+					"raw": 120154000000.0,
+					"fmt": "120.15B"
+				}
+			},
+			{
+				"dataId": 23204,
+				"asOfDate": "2021-09-30",
+				"periodType": "3M",
+				"currencyCode": "USD",
+				"reportedValue": {
+					"raw": 121092000000.0,
+					"fmt": "121.09B"
+				}
+			}
+		]
+	},
+	{
+		"meta": {
+			"symbol": [
+				"JNJ"
+			],
+			"type": [
+				"quarterlyOperatingIncome"
+			]
+		},
+		"timestamp": [
+			1601424000,
+			1609372800,
+			1617148800,
+			1625011200,
+			1632960000
+		],
+		"quarterlyOperatingIncome": [
+			{
+				"dataId": 20109,
+				"asOfDate": "2020-09-30",
+				"periodType": "3M",
+				"currencyCode": "USD",
+				"reportedValue": {
+					"raw": 5839000000.0,
+					"fmt": "5.84B"
+				}
+			},
+			{
+				"dataId": 20109,
+				"asOfDate": "2020-12-31",
+				"periodType": "3M",
+				"currencyCode": "USD",
+				"reportedValue": {
+					"raw": 4172000000.0,
+					"fmt": "4.17B"
+				}
+			},
+			{
+				"dataId": 20109,
+				"asOfDate": "2021-03-31",
+				"periodType": "3M",
+				"currencyCode": "USD",
+				"reportedValue": {
+					"raw": 6648000000.0,
+					"fmt": "6.65B"
+				}
+			},
+			{
+				"dataId": 20109,
+				"asOfDate": "2021-06-30",
+				"periodType": "3M",
+				"currencyCode": "USD",
+				"reportedValue": {
+					"raw": 6258000000.0,
+					"fmt": "6.26B"
+				}
+			},
+			{
+				"dataId": 20109,
+				"asOfDate": "2021-09-30",
+				"periodType": "3M",
+				"currencyCode": "USD",
+				"reportedValue": {
+					"raw": 6666000000.0,
+					"fmt": "6.67B"
+				}
+			}
+		]
+	},
+	{
+		"meta": {
+			"symbol": [
+				"JNJ"
+			],
+			"type": [
+				"trailingOperatingIncome"
+			]
+		},
+		"timestamp": [
+			1632960000
+		],
+		"trailingOperatingIncome": [
+			{
+				"dataId": 20109,
+				"asOfDate": "2021-09-30",
+				"periodType": "TTM",
+				"currencyCode": "USD",
+				"reportedValue": {
+					"raw": 23744000000.0,
+					"fmt": "23.74B"
+				}
+			}
+		]
+	},
+	{
+		"meta": {
+			"symbol": [
+				"JNJ"
+			],
+			"type": [
+				"trailingNetIncomeContinuousOperations"
+			]
+		},
+		"timestamp": [
+			1632960000
+		],
+		"trailingNetIncomeContinuousOperations": [
+			{
+				"dataId": 20094,
+				"asOfDate": "2021-09-30",
+				"periodType": "TTM",
+				"currencyCode": "USD",
+				"reportedValue": {
+					"raw": 17880000000.0,
+					"fmt": "17.88B"
+				}
+			}
+		]
+	}
+]

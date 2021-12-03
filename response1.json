@@ -1,0 +1,5035 @@
+{
+	"timeseries": {
+		"result": [
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingCostOfRevenue"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingCostOfRevenue": [
+					{
+						"dataId": 20013,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 29714000000.0,
+							"fmt": "29.71B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingTotalRevenue"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingTotalRevenue": [
+					{
+						"dataId": 20100,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 91446000000.0,
+							"fmt": "91.45B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlySellingGeneralAndAdministration"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlySellingGeneralAndAdministration": [
+					{
+						"dataId": 20159,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 5431000000.0,
+							"fmt": "5.43B"
+						}
+					},
+					{
+						"dataId": 20159,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6457000000.0,
+							"fmt": "6.46B"
+						}
+					},
+					{
+						"dataId": 20159,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 5432000000.0,
+							"fmt": "5.43B"
+						}
+					},
+					{
+						"dataId": 20159,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6073000000.0,
+							"fmt": "6.07B"
+						}
+					},
+					{
+						"dataId": 20159,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6000000000.0,
+							"fmt": "6.00B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingInterestExpenseNonOperating"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingInterestExpenseNonOperating": [
+					{
+						"dataId": 20064,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 210000000.0,
+							"fmt": "210.00M"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingResearchAndDevelopment"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingResearchAndDevelopment": [
+					{
+						"dataId": 20151,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 14026000000.0,
+							"fmt": "14.03B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyNetIncomeCommonStockholders"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyNetIncomeCommonStockholders": [
+					{
+						"dataId": 20093,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 3554000000.0,
+							"fmt": "3.55B"
+						}
+					},
+					{
+						"dataId": 20093,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 1738000000.0,
+							"fmt": "1.74B"
+						}
+					},
+					{
+						"dataId": 20093,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6197000000.0,
+							"fmt": "6.20B"
+						}
+					},
+					{
+						"dataId": 20093,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6278000000.0,
+							"fmt": "6.28B"
+						}
+					},
+					{
+						"dataId": 20093,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 3667000000.0,
+							"fmt": "3.67B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyNormalizedIncome"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyNormalizedIncome": [
+					{
+						"dataId": 20316,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 4850915246.534878,
+							"fmt": "4.85B"
+						}
+					},
+					{
+						"dataId": 20316,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 1078810000.0,
+							"fmt": "1.08B"
+						}
+					},
+					{
+						"dataId": 20316,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6241202000.0,
+							"fmt": "6.24B"
+						}
+					},
+					{
+						"dataId": 20316,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6330772140.498349,
+							"fmt": "6.33B"
+						}
+					},
+					{
+						"dataId": 20316,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6296493374.902572,
+							"fmt": "6.30B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyTaxProvision"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyTaxProvision": [
+					{
+						"dataId": 20145,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 847000000.0,
+							"fmt": "847.00M"
+						}
+					},
+					{
+						"dataId": 20145,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -91000000.0,
+							"fmt": "-91.00M"
+						}
+					},
+					{
+						"dataId": 20145,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 1232000000.0,
+							"fmt": "1.23B"
+						}
+					},
+					{
+						"dataId": 20145,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 384000000.0,
+							"fmt": "384.00M"
+						}
+					},
+					{
+						"dataId": 20145,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 182000000.0,
+							"fmt": "182.00M"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingOtherIncomeExpense"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingOtherIncomeExpense": [
+					{
+						"dataId": 20117,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -4065000000.0,
+							"fmt": "-4.07B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyDilutedNIAvailtoComStockholders"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyDilutedNIAvailtoComStockholders": [
+					{
+						"dataId": 20424,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 3554000000.0,
+							"fmt": "3.55B"
+						}
+					},
+					{
+						"dataId": 20424,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 1738000000.0,
+							"fmt": "1.74B"
+						}
+					},
+					{
+						"dataId": 20424,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6197000000.0,
+							"fmt": "6.20B"
+						}
+					},
+					{
+						"dataId": 20424,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6278000000.0,
+							"fmt": "6.28B"
+						}
+					},
+					{
+						"dataId": 20424,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 3667000000.0,
+							"fmt": "3.67B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingOperatingIncome"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingOperatingIncome": [
+					{
+						"dataId": 20109,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 23744000000.0,
+							"fmt": "23.74B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyDilutedEPS"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyDilutedEPS": [
+					{
+						"dataId": 29009,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 1.33,
+							"fmt": "1.33"
+						}
+					},
+					{
+						"dataId": 29009,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 0.65,
+							"fmt": "0.65"
+						}
+					},
+					{
+						"dataId": 29009,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 2.32,
+							"fmt": "2.32"
+						}
+					},
+					{
+						"dataId": 29009,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 2.35,
+							"fmt": "2.35"
+						}
+					},
+					{
+						"dataId": 29009,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 1.37,
+							"fmt": "1.37"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyMinorityInterests"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyPretaxIncome"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyPretaxIncome": [
+					{
+						"dataId": 20136,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 4401000000.0,
+							"fmt": "4.40B"
+						}
+					},
+					{
+						"dataId": 20136,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 1647000000.0,
+							"fmt": "1.65B"
+						}
+					},
+					{
+						"dataId": 20136,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 7429000000.0,
+							"fmt": "7.43B"
+						}
+					},
+					{
+						"dataId": 20136,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6662000000.0,
+							"fmt": "6.66B"
+						}
+					},
+					{
+						"dataId": 20136,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 3849000000.0,
+							"fmt": "3.85B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingNormalizedIncome"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingNormalizedIncome": [
+					{
+						"dataId": 20316,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 19126953591.667943,
+							"fmt": "19.13B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingTaxProvision"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingTaxProvision": [
+					{
+						"dataId": 20145,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 1707000000.0,
+							"fmt": "1.71B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyBasicEPS"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyBasicEPS": [
+					{
+						"dataId": 29004,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 1.350218,
+							"fmt": "1.35"
+						}
+					},
+					{
+						"dataId": 29004,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 0.660198,
+							"fmt": "0.66"
+						}
+					},
+					{
+						"dataId": 29004,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 2.353851,
+							"fmt": "2.35"
+						}
+					},
+					{
+						"dataId": 29004,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 2.383994,
+							"fmt": "2.38"
+						}
+					},
+					{
+						"dataId": 29004,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 1.39,
+							"fmt": "1.39"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyGainOnSaleOfSecurity"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyGainOnSaleOfSecurity": [
+					null,
+					null,
+					null,
+					null,
+					{
+						"dataId": 20219,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 100000000.0,
+							"fmt": "100.00M"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyInterestExpense"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyInterestExpense": [
+					{
+						"dataId": 20057,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 44000000.0,
+							"fmt": "44.00M"
+						}
+					},
+					{
+						"dataId": 20057,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 87000000.0,
+							"fmt": "87.00M"
+						}
+					},
+					{
+						"dataId": 20057,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 63000000.0,
+							"fmt": "63.00M"
+						}
+					},
+					{
+						"dataId": 20057,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 40000000.0,
+							"fmt": "40.00M"
+						}
+					},
+					{
+						"dataId": 20057,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 20000000.0,
+							"fmt": "20.00M"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyNetInterestIncome"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyNetInterestIncome": [
+					{
+						"dataId": 20095,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -32000000.0,
+							"fmt": "-32.00M"
+						}
+					},
+					{
+						"dataId": 20095,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -74000000.0,
+							"fmt": "-74.00M"
+						}
+					},
+					{
+						"dataId": 20095,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -48000000.0,
+							"fmt": "-48.00M"
+						}
+					},
+					{
+						"dataId": 20095,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -28000000.0,
+							"fmt": "-28.00M"
+						}
+					},
+					{
+						"dataId": 20095,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -7000000.0,
+							"fmt": "-7.00M"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyRestructuringAndMergernAcquisition"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyRestructuringAndMergernAcquisition": [
+					{
+						"dataId": 20289,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -32000000.0,
+							"fmt": "-32.00M"
+						}
+					},
+					{
+						"dataId": 20289,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 1160000000.0,
+							"fmt": "1.16B"
+						}
+					},
+					{
+						"dataId": 20289,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 53000000.0,
+							"fmt": "53.00M"
+						}
+					},
+					{
+						"dataId": 20289,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 56000000.0,
+							"fmt": "56.00M"
+						}
+					},
+					{
+						"dataId": 20289,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -140000000.0,
+							"fmt": "-140.00M"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingReconciledCostOfRevenue"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingReconciledCostOfRevenue": [
+					{
+						"dataId": 20314,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 29714000000.0,
+							"fmt": "29.71B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingTotalExpenses"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingTotalExpenses": [
+					{
+						"dataId": 20164,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 67702000000.0,
+							"fmt": "67.70B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyOperatingIncome"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyOperatingIncome": [
+					{
+						"dataId": 20109,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 5839000000.0,
+							"fmt": "5.84B"
+						}
+					},
+					{
+						"dataId": 20109,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 4172000000.0,
+							"fmt": "4.17B"
+						}
+					},
+					{
+						"dataId": 20109,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6648000000.0,
+							"fmt": "6.65B"
+						}
+					},
+					{
+						"dataId": 20109,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6258000000.0,
+							"fmt": "6.26B"
+						}
+					},
+					{
+						"dataId": 20109,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6666000000.0,
+							"fmt": "6.67B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyResearchAndDevelopment"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyResearchAndDevelopment": [
+					{
+						"dataId": 20151,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 2840000000.0,
+							"fmt": "2.84B"
+						}
+					},
+					{
+						"dataId": 20151,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 4032000000.0,
+							"fmt": "4.03B"
+						}
+					},
+					{
+						"dataId": 20151,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 3178000000.0,
+							"fmt": "3.18B"
+						}
+					},
+					{
+						"dataId": 20151,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 3394000000.0,
+							"fmt": "3.39B"
+						}
+					},
+					{
+						"dataId": 20151,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 3422000000.0,
+							"fmt": "3.42B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingNetIncomeContinuousOperations"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingNetIncomeContinuousOperations": [
+					{
+						"dataId": 20094,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 17880000000.0,
+							"fmt": "17.88B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyNetNonOperatingInterestIncomeExpense"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyNetNonOperatingInterestIncomeExpense": [
+					{
+						"dataId": 20077,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -32000000.0,
+							"fmt": "-32.00M"
+						}
+					},
+					{
+						"dataId": 20077,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -74000000.0,
+							"fmt": "-74.00M"
+						}
+					},
+					{
+						"dataId": 20077,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -48000000.0,
+							"fmt": "-48.00M"
+						}
+					},
+					{
+						"dataId": 20077,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -28000000.0,
+							"fmt": "-28.00M"
+						}
+					},
+					{
+						"dataId": 20077,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -7000000.0,
+							"fmt": "-7.00M"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyTotalExpenses"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyTotalExpenses": [
+					{
+						"dataId": 20164,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 15243000000.0,
+							"fmt": "15.24B"
+						}
+					},
+					{
+						"dataId": 20164,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 18303000000.0,
+							"fmt": "18.30B"
+						}
+					},
+					{
+						"dataId": 20164,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 15673000000.0,
+							"fmt": "15.67B"
+						}
+					},
+					{
+						"dataId": 20164,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 17054000000.0,
+							"fmt": "17.05B"
+						}
+					},
+					{
+						"dataId": 20164,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 16672000000.0,
+							"fmt": "16.67B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingNetInterestIncome"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingNetInterestIncome": [
+					{
+						"dataId": 20095,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -157000000.0,
+							"fmt": "-157.00M"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingInterestIncomeNonOperating"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingInterestIncomeNonOperating": [
+					{
+						"dataId": 20075,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 53000000.0,
+							"fmt": "53.00M"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyOperatingRevenue"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyOperatingRevenue": [
+					{
+						"dataId": 20112,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 21082000000.0,
+							"fmt": "21.08B"
+						}
+					},
+					{
+						"dataId": 20112,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 22475000000.0,
+							"fmt": "22.48B"
+						}
+					},
+					{
+						"dataId": 20112,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 22321000000.0,
+							"fmt": "22.32B"
+						}
+					},
+					{
+						"dataId": 20112,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 23312000000.0,
+							"fmt": "23.31B"
+						}
+					},
+					{
+						"dataId": 20112,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 23338000000.0,
+							"fmt": "23.34B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingSellingGeneralAndAdministration"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingSellingGeneralAndAdministration": [
+					{
+						"dataId": 20159,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 23962000000.0,
+							"fmt": "23.96B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyNetIncomeFromContinuingAndDiscontinuedOperation"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyNetIncomeFromContinuingAndDiscontinuedOperation": [
+					{
+						"dataId": 20309,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 3554000000.0,
+							"fmt": "3.55B"
+						}
+					},
+					{
+						"dataId": 20309,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 1738000000.0,
+							"fmt": "1.74B"
+						}
+					},
+					{
+						"dataId": 20309,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6197000000.0,
+							"fmt": "6.20B"
+						}
+					},
+					{
+						"dataId": 20309,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6278000000.0,
+							"fmt": "6.28B"
+						}
+					},
+					{
+						"dataId": 20309,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 3667000000.0,
+							"fmt": "3.67B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingTotalUnusualItemsExcludingGoodwill"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingTotalUnusualItemsExcludingGoodwill": [
+					{
+						"dataId": 20417,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -1366000000.0,
+							"fmt": "-1.37B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyTotalRevenue"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyTotalRevenue": [
+					{
+						"dataId": 20100,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 21082000000.0,
+							"fmt": "21.08B"
+						}
+					},
+					{
+						"dataId": 20100,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 22475000000.0,
+							"fmt": "22.48B"
+						}
+					},
+					{
+						"dataId": 20100,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 22321000000.0,
+							"fmt": "22.32B"
+						}
+					},
+					{
+						"dataId": 20100,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 23312000000.0,
+							"fmt": "23.31B"
+						}
+					},
+					{
+						"dataId": 20100,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 23338000000.0,
+							"fmt": "23.34B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyReconciledDepreciation"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyReconciledDepreciation": [
+					{
+						"dataId": 20315,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 1818000000.0,
+							"fmt": "1.82B"
+						}
+					},
+					{
+						"dataId": 20315,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 1940000000.0,
+							"fmt": "1.94B"
+						}
+					},
+					{
+						"dataId": 20315,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 1894000000.0,
+							"fmt": "1.89B"
+						}
+					},
+					{
+						"dataId": 20315,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 1839000000.0,
+							"fmt": "1.84B"
+						}
+					},
+					{
+						"dataId": 20315,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 1814000000.0,
+							"fmt": "1.81B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyTaxEffectOfUnusualItems"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyTaxEffectOfUnusualItems": [
+					{
+						"dataId": 20419,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -309084753.465122,
+							"fmt": "-309.08M"
+						}
+					},
+					{
+						"dataId": 20419,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 243810000.0,
+							"fmt": "243.81M"
+						}
+					},
+					{
+						"dataId": 20419,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -8798000.0,
+							"fmt": "-8.80M"
+						}
+					},
+					{
+						"dataId": 20419,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -3227859.501651,
+							"fmt": "-3.23M"
+						}
+					},
+					{
+						"dataId": 20419,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -130506625.097428,
+							"fmt": "-130.51M"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyDepreciationAmortizationDepletionIncomeStatement"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyTotalUnusualItems"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyTotalUnusualItems": [
+					{
+						"dataId": 20416,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -1606000000.0,
+							"fmt": "-1.61B"
+						}
+					},
+					{
+						"dataId": 20416,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 903000000.0,
+							"fmt": "903.00M"
+						}
+					},
+					{
+						"dataId": 20416,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -53000000.0,
+							"fmt": "-53.00M"
+						}
+					},
+					{
+						"dataId": 20416,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -56000000.0,
+							"fmt": "-56.00M"
+						}
+					},
+					{
+						"dataId": 20416,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -2760000000.0,
+							"fmt": "-2.76B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyNormalizedEBITDA"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyNormalizedEBITDA": [
+					{
+						"dataId": 20420,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 7869000000.0,
+							"fmt": "7.87B"
+						}
+					},
+					{
+						"dataId": 20420,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 2771000000.0,
+							"fmt": "2.77B"
+						}
+					},
+					{
+						"dataId": 20420,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 9439000000.0,
+							"fmt": "9.44B"
+						}
+					},
+					{
+						"dataId": 20420,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 8597000000.0,
+							"fmt": "8.60B"
+						}
+					},
+					{
+						"dataId": 20420,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 8443000000.0,
+							"fmt": "8.44B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingInterestIncome"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingInterestIncome": [
+					{
+						"dataId": 20177,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 53000000.0,
+							"fmt": "53.00M"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingPretaxIncome"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingPretaxIncome": [
+					{
+						"dataId": 20136,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 19587000000.0,
+							"fmt": "19.59B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingInterestExpense"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingInterestExpense": [
+					{
+						"dataId": 20057,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 210000000.0,
+							"fmt": "210.00M"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingNetIncome"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingNetIncome": [
+					{
+						"dataId": 20091,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 17880000000.0,
+							"fmt": "17.88B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingNetIncomeFromContinuingAndDiscontinuedOperation"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingNetIncomeFromContinuingAndDiscontinuedOperation": [
+					{
+						"dataId": 20309,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 17880000000.0,
+							"fmt": "17.88B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyOtherSpecialCharges"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyOtherSpecialCharges": [
+					{
+						"dataId": 20269,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 1638000000.0,
+							"fmt": "1.64B"
+						}
+					},
+					{
+						"dataId": 20269,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -2163000000.0,
+							"fmt": "-2.16B"
+						}
+					},
+					null,
+					null,
+					{
+						"dataId": 20269,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 3000000000.0,
+							"fmt": "3.00B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingRestructuringAndMergernAcquisition"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingRestructuringAndMergernAcquisition": [
+					{
+						"dataId": 20289,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 629000000.0,
+							"fmt": "629.00M"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyBasicAverageShares"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyBasicAverageShares": [
+					{
+						"dataId": 29010,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 2632167000.0,
+							"fmt": "2.63B"
+						}
+					},
+					{
+						"dataId": 29010,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 2632512000.0,
+							"fmt": "2.63B"
+						}
+					},
+					{
+						"dataId": 29010,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 2632702000.0,
+							"fmt": "2.63B"
+						}
+					},
+					{
+						"dataId": 29010,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 2631989000.0,
+							"fmt": "2.63B"
+						}
+					},
+					{
+						"dataId": 29010,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 2632600000.0,
+							"fmt": "2.63B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyCostOfRevenue"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyCostOfRevenue": [
+					{
+						"dataId": 20013,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6972000000.0,
+							"fmt": "6.97B"
+						}
+					},
+					{
+						"dataId": 20013,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 7814000000.0,
+							"fmt": "7.81B"
+						}
+					},
+					{
+						"dataId": 20013,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 7063000000.0,
+							"fmt": "7.06B"
+						}
+					},
+					{
+						"dataId": 20013,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 7587000000.0,
+							"fmt": "7.59B"
+						}
+					},
+					{
+						"dataId": 20013,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 7250000000.0,
+							"fmt": "7.25B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyNetIncomeIncludingNoncontrollingInterests"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyNetIncomeIncludingNoncontrollingInterests": [
+					{
+						"dataId": 20346,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 3554000000.0,
+							"fmt": "3.55B"
+						}
+					},
+					{
+						"dataId": 20346,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 1738000000.0,
+							"fmt": "1.74B"
+						}
+					},
+					{
+						"dataId": 20346,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6197000000.0,
+							"fmt": "6.20B"
+						}
+					},
+					{
+						"dataId": 20346,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6278000000.0,
+							"fmt": "6.28B"
+						}
+					},
+					{
+						"dataId": 20346,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 3667000000.0,
+							"fmt": "3.67B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyInterestIncomeNonOperating"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyInterestIncomeNonOperating": [
+					{
+						"dataId": 20075,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 12000000.0,
+							"fmt": "12.00M"
+						}
+					},
+					{
+						"dataId": 20075,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 13000000.0,
+							"fmt": "13.00M"
+						}
+					},
+					{
+						"dataId": 20075,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 15000000.0,
+							"fmt": "15.00M"
+						}
+					},
+					{
+						"dataId": 20075,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 12000000.0,
+							"fmt": "12.00M"
+						}
+					},
+					{
+						"dataId": 20075,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 13000000.0,
+							"fmt": "13.00M"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingOperatingExpense"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingOperatingExpense": [
+					{
+						"dataId": 20108,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 37988000000.0,
+							"fmt": "37.99B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyTotalUnusualItemsExcludingGoodwill"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyTotalUnusualItemsExcludingGoodwill": [
+					{
+						"dataId": 20417,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -1606000000.0,
+							"fmt": "-1.61B"
+						}
+					},
+					{
+						"dataId": 20417,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 903000000.0,
+							"fmt": "903.00M"
+						}
+					},
+					{
+						"dataId": 20417,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -53000000.0,
+							"fmt": "-53.00M"
+						}
+					},
+					{
+						"dataId": 20417,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -56000000.0,
+							"fmt": "-56.00M"
+						}
+					},
+					{
+						"dataId": 20417,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -2760000000.0,
+							"fmt": "-2.76B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingEBIT"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingEBIT": [
+					{
+						"dataId": 20189,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 19797000000.0,
+							"fmt": "19.80B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingTotalUnusualItems"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingTotalUnusualItems": [
+					{
+						"dataId": 20416,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -1366000000.0,
+							"fmt": "-1.37B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingDilutedNIAvailtoComStockholders"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingDilutedNIAvailtoComStockholders": [
+					{
+						"dataId": 20424,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 17880000000.0,
+							"fmt": "17.88B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyInterestExpenseNonOperating"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyInterestExpenseNonOperating": [
+					{
+						"dataId": 20064,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 44000000.0,
+							"fmt": "44.00M"
+						}
+					},
+					{
+						"dataId": 20064,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 87000000.0,
+							"fmt": "87.00M"
+						}
+					},
+					{
+						"dataId": 20064,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 63000000.0,
+							"fmt": "63.00M"
+						}
+					},
+					{
+						"dataId": 20064,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 40000000.0,
+							"fmt": "40.00M"
+						}
+					},
+					{
+						"dataId": 20064,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 20000000.0,
+							"fmt": "20.00M"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingTaxEffectOfUnusualItems"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingTaxEffectOfUnusualItems": [
+					{
+						"dataId": 20419,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -119046408.332057,
+							"fmt": "-119.05M"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyReconciledCostOfRevenue"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyReconciledCostOfRevenue": [
+					{
+						"dataId": 20314,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6972000000.0,
+							"fmt": "6.97B"
+						}
+					},
+					{
+						"dataId": 20314,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 7814000000.0,
+							"fmt": "7.81B"
+						}
+					},
+					{
+						"dataId": 20314,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 7063000000.0,
+							"fmt": "7.06B"
+						}
+					},
+					{
+						"dataId": 20314,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 7587000000.0,
+							"fmt": "7.59B"
+						}
+					},
+					{
+						"dataId": 20314,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 7250000000.0,
+							"fmt": "7.25B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingEBITDA"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingEBITDA": [
+					{
+						"dataId": 20190,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 27284000000.0,
+							"fmt": "27.28B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingNetNonOperatingInterestIncomeExpense"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingNetNonOperatingInterestIncomeExpense": [
+					{
+						"dataId": 20077,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -157000000.0,
+							"fmt": "-157.00M"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingTaxRateForCalcs"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingTaxRateForCalcs": [
+					{
+						"dataId": 20418,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 0.08715,
+							"fmt": "0.09"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyGrossProfit"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyGrossProfit": [
+					{
+						"dataId": 20046,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 14110000000.0,
+							"fmt": "14.11B"
+						}
+					},
+					{
+						"dataId": 20046,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 14661000000.0,
+							"fmt": "14.66B"
+						}
+					},
+					{
+						"dataId": 20046,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 15258000000.0,
+							"fmt": "15.26B"
+						}
+					},
+					{
+						"dataId": 20046,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 15725000000.0,
+							"fmt": "15.72B"
+						}
+					},
+					{
+						"dataId": 20046,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 16088000000.0,
+							"fmt": "16.09B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyDepreciationAndAmortizationInIncomeStatement"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyNetIncomeFromContinuingOperationNetMinorityInterest"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyNetIncomeFromContinuingOperationNetMinorityInterest": [
+					{
+						"dataId": 20331,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 3554000000.0,
+							"fmt": "3.55B"
+						}
+					},
+					{
+						"dataId": 20331,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 1738000000.0,
+							"fmt": "1.74B"
+						}
+					},
+					{
+						"dataId": 20331,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6197000000.0,
+							"fmt": "6.20B"
+						}
+					},
+					{
+						"dataId": 20331,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6278000000.0,
+							"fmt": "6.28B"
+						}
+					},
+					{
+						"dataId": 20331,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 3667000000.0,
+							"fmt": "3.67B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyOtherNonOperatingIncomeExpenses"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyOtherNonOperatingIncomeExpenses": [
+					{
+						"dataId": 20412,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 200000000.0,
+							"fmt": "200.00M"
+						}
+					},
+					{
+						"dataId": 20412,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -3399000000.0,
+							"fmt": "-3.40B"
+						}
+					},
+					{
+						"dataId": 20412,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 882000000.0,
+							"fmt": "882.00M"
+						}
+					},
+					{
+						"dataId": 20412,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 488000000.0,
+							"fmt": "488.00M"
+						}
+					},
+					{
+						"dataId": 20412,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -100000000.0,
+							"fmt": "-100.00M"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingNetIncomeFromContinuingOperationNetMinorityInterest"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingNetIncomeFromContinuingOperationNetMinorityInterest": [
+					{
+						"dataId": 20331,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 17880000000.0,
+							"fmt": "17.88B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingOtherSpecialCharges"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingOtherSpecialCharges": [
+					{
+						"dataId": 20269,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 837000000.0,
+							"fmt": "837.00M"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyTaxRateForCalcs"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyTaxRateForCalcs": [
+					{
+						"dataId": 20418,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 0.192456,
+							"fmt": "0.19"
+						}
+					},
+					{
+						"dataId": 20418,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 0.27,
+							"fmt": "0.27"
+						}
+					},
+					{
+						"dataId": 20418,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 0.166,
+							"fmt": "0.17"
+						}
+					},
+					{
+						"dataId": 20418,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 0.05764,
+							"fmt": "0.06"
+						}
+					},
+					{
+						"dataId": 20418,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 0.047285,
+							"fmt": "0.05"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyTotalOtherFinanceCost"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyTotalOtherFinanceCost": [
+					{
+						"dataId": 20368,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 32000000.0,
+							"fmt": "32.00M"
+						}
+					},
+					{
+						"dataId": 20368,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 74000000.0,
+							"fmt": "74.00M"
+						}
+					},
+					{
+						"dataId": 20368,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 48000000.0,
+							"fmt": "48.00M"
+						}
+					},
+					{
+						"dataId": 20368,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 28000000.0,
+							"fmt": "28.00M"
+						}
+					},
+					null
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingSpecialIncomeCharges"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingSpecialIncomeCharges": [
+					{
+						"dataId": 20162,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -1466000000.0,
+							"fmt": "-1.47B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingNetIncomeIncludingNoncontrollingInterests"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingNetIncomeIncludingNoncontrollingInterests": [
+					{
+						"dataId": 20346,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 17880000000.0,
+							"fmt": "17.88B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyEBIT"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyEBIT": [
+					{
+						"dataId": 20189,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 4445000000.0,
+							"fmt": "4.45B"
+						}
+					},
+					{
+						"dataId": 20189,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 1734000000.0,
+							"fmt": "1.73B"
+						}
+					},
+					{
+						"dataId": 20189,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 7492000000.0,
+							"fmt": "7.49B"
+						}
+					},
+					{
+						"dataId": 20189,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6702000000.0,
+							"fmt": "6.70B"
+						}
+					},
+					{
+						"dataId": 20189,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 3869000000.0,
+							"fmt": "3.87B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyOperatingExpense"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyOperatingExpense": [
+					{
+						"dataId": 20108,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 8271000000.0,
+							"fmt": "8.27B"
+						}
+					},
+					{
+						"dataId": 20108,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 10489000000.0,
+							"fmt": "10.49B"
+						}
+					},
+					{
+						"dataId": 20108,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 8610000000.0,
+							"fmt": "8.61B"
+						}
+					},
+					{
+						"dataId": 20108,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 9467000000.0,
+							"fmt": "9.47B"
+						}
+					},
+					{
+						"dataId": 20108,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 9422000000.0,
+							"fmt": "9.42B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingOtherNonOperatingIncomeExpenses"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingOtherNonOperatingIncomeExpenses": [
+					{
+						"dataId": 20412,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -2699000000.0,
+							"fmt": "-2.70B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyNetIncome"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyNetIncome": [
+					{
+						"dataId": 20091,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 3554000000.0,
+							"fmt": "3.55B"
+						}
+					},
+					{
+						"dataId": 20091,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 1738000000.0,
+							"fmt": "1.74B"
+						}
+					},
+					{
+						"dataId": 20091,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6197000000.0,
+							"fmt": "6.20B"
+						}
+					},
+					{
+						"dataId": 20091,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6278000000.0,
+							"fmt": "6.28B"
+						}
+					},
+					{
+						"dataId": 20091,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 3667000000.0,
+							"fmt": "3.67B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlySpecialIncomeCharges"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlySpecialIncomeCharges": [
+					{
+						"dataId": 20162,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -1606000000.0,
+							"fmt": "-1.61B"
+						}
+					},
+					{
+						"dataId": 20162,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 1103000000.0,
+							"fmt": "1.10B"
+						}
+					},
+					{
+						"dataId": 20162,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -53000000.0,
+							"fmt": "-53.00M"
+						}
+					},
+					{
+						"dataId": 20162,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -56000000.0,
+							"fmt": "-56.00M"
+						}
+					},
+					{
+						"dataId": 20162,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -2860000000.0,
+							"fmt": "-2.86B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyNetIncomeContinuousOperations"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyNetIncomeContinuousOperations": [
+					{
+						"dataId": 20094,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 3554000000.0,
+							"fmt": "3.55B"
+						}
+					},
+					{
+						"dataId": 20094,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 1738000000.0,
+							"fmt": "1.74B"
+						}
+					},
+					{
+						"dataId": 20094,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6197000000.0,
+							"fmt": "6.20B"
+						}
+					},
+					{
+						"dataId": 20094,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 6278000000.0,
+							"fmt": "6.28B"
+						}
+					},
+					{
+						"dataId": 20094,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 3667000000.0,
+							"fmt": "3.67B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyInterestIncome"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyInterestIncome": [
+					{
+						"dataId": 20177,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 12000000.0,
+							"fmt": "12.00M"
+						}
+					},
+					{
+						"dataId": 20177,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 13000000.0,
+							"fmt": "13.00M"
+						}
+					},
+					{
+						"dataId": 20177,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 15000000.0,
+							"fmt": "15.00M"
+						}
+					},
+					{
+						"dataId": 20177,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 12000000.0,
+							"fmt": "12.00M"
+						}
+					},
+					{
+						"dataId": 20177,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 13000000.0,
+							"fmt": "13.00M"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyOtherIncomeExpense"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyOtherIncomeExpense": [
+					{
+						"dataId": 20117,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -1406000000.0,
+							"fmt": "-1.41B"
+						}
+					},
+					{
+						"dataId": 20117,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -2496000000.0,
+							"fmt": "-2.50B"
+						}
+					},
+					{
+						"dataId": 20117,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 829000000.0,
+							"fmt": "829.00M"
+						}
+					},
+					{
+						"dataId": 20117,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 432000000.0,
+							"fmt": "432.00M"
+						}
+					},
+					{
+						"dataId": 20117,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": -2860000000.0,
+							"fmt": "-2.86B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyDilutedAverageShares"
+					]
+				},
+				"timestamp": [
+					1601424000,
+					1609372800,
+					1617148800,
+					1625011200,
+					1632960000
+				],
+				"quarterlyDilutedAverageShares": [
+					{
+						"dataId": 29011,
+						"asOfDate": "2020-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 2669300000.0,
+							"fmt": "2.67B"
+						}
+					},
+					{
+						"dataId": 29011,
+						"asOfDate": "2020-12-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 2669200000.0,
+							"fmt": "2.67B"
+						}
+					},
+					{
+						"dataId": 29011,
+						"asOfDate": "2021-03-31",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 2672700000.0,
+							"fmt": "2.67B"
+						}
+					},
+					{
+						"dataId": 29011,
+						"asOfDate": "2021-06-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 2671600000.0,
+							"fmt": "2.67B"
+						}
+					},
+					{
+						"dataId": 29011,
+						"asOfDate": "2021-09-30",
+						"periodType": "3M",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 2674900000.0,
+							"fmt": "2.67B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingOperatingRevenue"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingOperatingRevenue": [
+					{
+						"dataId": 20112,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 91446000000.0,
+							"fmt": "91.45B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingReconciledDepreciation"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingReconciledDepreciation": [
+					{
+						"dataId": 20315,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 7487000000.0,
+							"fmt": "7.49B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingGrossProfit"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingGrossProfit": [
+					{
+						"dataId": 20046,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 61732000000.0,
+							"fmt": "61.73B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingNetIncomeCommonStockholders"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingNetIncomeCommonStockholders": [
+					{
+						"dataId": 20093,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 17880000000.0,
+							"fmt": "17.88B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingNormalizedEBITDA"
+					]
+				},
+				"timestamp": [
+					1632960000
+				],
+				"trailingNormalizedEBITDA": [
+					{
+						"dataId": 20420,
+						"asOfDate": "2021-09-30",
+						"periodType": "TTM",
+						"currencyCode": "USD",
+						"reportedValue": {
+							"raw": 28650000000.0,
+							"fmt": "28.65B"
+						}
+					}
+				]
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingGainOnSaleOfPPE"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyRentExpenseSupplemental"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlySellingAndMarketingExpense"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingExciseTaxes"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyDilutedDiscontinuousOperations"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingTotalOperatingIncomeAsReported"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingRentAndLandingFees"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingWriteOff"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyNormalizedDilutedEPS"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyOtherGandA"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingBasicDiscontinuousOperations"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyDilutedAccountingChange"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingBasicExtraordinary"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingOtherOperatingExpenses"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingTaxLossCarryforwardBasicEPS"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingDepreciationIncomeStatement"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlySalariesAndWages"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyAmortizationOfIntangiblesIncomeStatement"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingDepletionIncomeStatement"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyReportedNormalizedBasicEPS"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingPreferredStockDividends"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlySecuritiesAmortization"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingNetIncomeFromTaxLossCarryforward"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyInsuranceAndClaims"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingDilutedContinuousOperations"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyBasicExtraordinary"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyBasicAccountingChange"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingContinuingAndDiscontinuedBasicEPS"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyDilutedContinuousOperations"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingDilutedDiscontinuousOperations"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingProvisionForDoubtfulAccounts"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyContinuingAndDiscontinuedBasicEPS"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyTaxLossCarryforwardBasicEPS"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyBasicDiscontinuousOperations"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyPreferredStockDividends"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingBasicEPSOtherGainsLosses"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingBasicContinuousOperations"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingEarningsFromEquityInterest"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingDilutedEPSOtherGainsLosses"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingBasicAverageShares"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyAverageDilutionEarnings"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingTotalOtherFinanceCost"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyNormalizedBasicEPS"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyTotalOperatingIncomeAsReported"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyEarningsFromEquityInterest"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingDilutedAccountingChange"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyBasicEPSOtherGainsLosses"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyEarningsFromEquityInterestNetOfTax"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingSecuritiesAmortization"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingOtherGandA"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingDilutedExtraordinary"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingSellingAndMarketingExpense"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingEarningsFromEquityInterestNetOfTax"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyGeneralAndAdministrativeExpense"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingReportedNormalizedBasicEPS"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingMinorityInterests"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingDepreciationAndAmortizationInIncomeStatement"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingGainOnSaleOfSecurity"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingGeneralAndAdministrativeExpense"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingDepreciationAmortizationDepletionIncomeStatement"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingImpairmentOfCapitalAssets"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingGainOnSaleOfBusiness"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyContinuingAndDiscontinuedDilutedEPS"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyImpairmentOfCapitalAssets"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyDilutedExtraordinary"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingInsuranceAndClaims"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingOtherunderPreferredStockDividend"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingDilutedAverageShares"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyGainOnSaleOfBusiness"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyDepreciationIncomeStatement"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingAmortization"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingNormalizedDilutedEPS"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyOtherOperatingExpenses"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyOtherTaxes"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingBasicEPS"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyDividendPerShare"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingNetIncomeDiscontinuousOperations"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyWriteOff"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyBasicContinuousOperations"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingTaxLossCarryforwardDilutedEPS"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyDepletionIncomeStatement"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyNetIncomeFromTaxLossCarryforward"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingReportedNormalizedDilutedEPS"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingOtherTaxes"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyTaxLossCarryforwardDilutedEPS"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyRentAndLandingFees"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyNetIncomeDiscontinuousOperations"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingContinuingAndDiscontinuedDilutedEPS"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyOtherunderPreferredStockDividend"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingAmortizationOfIntangiblesIncomeStatement"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingDilutedEPS"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyNetIncomeExtraordinary"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingAverageDilutionEarnings"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingBasicAccountingChange"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyGainOnSaleOfPPE"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyExciseTaxes"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingSalariesAndWages"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingRentExpenseSupplemental"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingDividendPerShare"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyAmortization"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyReportedNormalizedDilutedEPS"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyDilutedEPSOtherGainsLosses"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingNetIncomeExtraordinary"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"quarterlyProvisionForDoubtfulAccounts"
+					]
+				}
+			},
+			{
+				"meta": {
+					"symbol": [
+						"JNJ"
+					],
+					"type": [
+						"trailingNormalizedBasicEPS"
+					]
+				}
+			}
+		],
+		"error": null
+	}
+}
