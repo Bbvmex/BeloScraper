@@ -33,7 +33,7 @@ def parseQuarterly(data):
     output = {}
     original_key = data['meta']['type']
     timestamps = data['timestamp']
-    quarters_data = data[key]
+    quarters_data = data[original_key]
     #Remove quarterly from the key name
     new_key = original_key.replace('quarterly','')
     for i in range(len(timestamps)):
@@ -43,7 +43,7 @@ def parseQuarterly(data):
 
 
 
-
+final_output = {}
 
 r = requests.get(link+queryStart+query+queryEnd, headers = header)
 
@@ -52,7 +52,7 @@ if not full_response['error']:
     # List of dictionaries
     result = full_response['result']
     for row in range(len(result)):
-        result[row]
+        final_result = result[row]
 
 
 else:
