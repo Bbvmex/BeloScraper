@@ -58,5 +58,7 @@ if not full_response['error']:
 else:
     print('Error retrieving the query')
 
+# git teste
+
 
 
