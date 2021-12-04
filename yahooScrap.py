@@ -69,41 +69,101 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
 import time
 
 def parseNumber(numberList):
     return [int(num.replace(',', '')) for num in numberList]
 
-driver = webdriver.Firefox()
-driver.get('https://finance.yahoo.com/quote/JNJ/financials?p=JNJ')
+class scrapYahoo:
+    def __init__(self, driver, tickers, fields):
+        self.driver = driver
+        self.tickers = tickers
+        self.fields = fields
+        self.webpage = 'https://finance.yahoo.com/quote/'
+        self.tabs = ['financials', 'balance-sheet', 'cash-flow']
+        self.output = {}
+    
+    # Get the page in driver -> opens directly in Income Statement tab
+    def get_page(self, ticker):
+        self.driver.get(self.webpage+ticker+'/financials?p='+ticker)
+    
+    # Get the desired tab
+    def set_tab(self, tab):
+        self.driver.find_element(By.XPATH, "//a[contains(@href, '"+tab+"')]").click()
 
-quarterlyButton = WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.CSS_SELECTOR, "button.P\(0px\)"))
-    )
-quarterlyButton.click()
 
-#['OperatingIncome',  'NetIncomeContinuousOperations', 'RetainedEarnings', 'ChangesInCash']
+    # Organize data by quarters in page and wait for it to load
+    def set_quarterly(self):
+        quarterlyButton = WebDriverWait(self.driver, 30).until(
+            EC.presence_of_element_located((By.XPATH, "//span[starts-with(text(), 'Quarterly')]"))
+        )
+        quarterlyButton.click()
+        # Wait for elements to load -> TODO find a better option for this wait
+        time.sleep(5)
 
-output = {}
+    # Find desired field and return the row data
+    def get_field_row_values(self, field):
+        field_cell = WebDriverWait(self.driver, 10).until(
+            EC.presence_of_element_located((By.XPATH, "//*[@title='"+field+"']"))
+        )
+        # Get all first order divs (columns) from second parent (row)
+        cols = field_cell.find_elements(By.XPATH, '../..//div')
+        elements = [col.text for col in cols]
+        return elements
 
-# Find element with the desired title
-t1 = WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.XPATH, '//*[@title="Operating Income"]'))
-    )
-# Wait for elements to load -> TODO find a better option for this wait
-time.sleep(5)
-# Get all first order divs (columns) from second parent (row)
-fields = t1.find_elements(By.XPATH, '../..//div')
-elements = [col.text for col in fields]
-# Remove repeated text and separator div
-del(elements[1:3])
-# Parse field name and the values for each quarter
-fieldName = elements[0]
-values = [int(num.replace(',', '')) for num in elements[1:]]
-output[fieldName] =  {'TTM': values[0],
-                    'Q0': values[1],
-                    'Q1': values[2],
-                    'Q2': values[3],
-                    'Q3': values[4],
-                    'Q4': values[5]
+    # Parse the data if it has TTM column in it
+    # Q0 is the most recent quarter. Each index represents the data from index-quarters back
+    def parse_TTM_quarters(self, elements):
+        del(elements[1:3])
+        fieldName = elements[0]
+        values = [int(num.replace(',', '')) for num in elements[1:]]
+        return {'TTM': values[0],
+                'Q0': values[1],
+                'Q1': values[2],
+                'Q2': values[3],
+                'Q3': values[4],
+                'Q4': values[5]
                 }
+                
+    
+    # Scrap routine to get all the desired data
+    def scrap_page(self):
+        for ticker in self.tickers:
+            print(ticker)
+            self.output[ticker] = {}
+            self.get_page(ticker)
+            for tab in self.tabs:
+                print(tab)
+                # Skip default tab
+                if tab != 'financials':
+                    self.set_tab(tab)
+                self.set_quarterly()
+                fieldsLeft = self.fields
+                for field in fieldsLeft:
+                    print(field)
+                    try: 
+                        data = self.get_field_row_values(field)
+                        self.output[ticker][field] = self.parse_TTM_quarters(data)
+                        self.fields.remove(field)
+                        print(self.output)
+                    except TimeoutException:
+                        next
+        self.driver.quit()
+        return self.output
+                
+
+
+if __name__ == '__main__':
+    output = {}
+    tickers = ["JNJ", "BRK-B", "JPM", "MMM", "ABBV", "DIS", "T", "PG", "LOW", "CI"]
+    Fields = ["Operating Income", "Net Income From Continuing Operations", "Retained Earnings", "Changes In Cash", "Net Borrowings"]
+    driver = webdriver.Firefox()
+    scraper = scrapYahoo(driver, ['JNJ'], Fields)
+#    scraper.get_page(scraper.tickers[0])
+#    scraper.set_quarterly()
+#    elements = scraper.get_field_row_values(scraper.fields[0])
+    print(scraper.scrap_page())
+
+#    for ticker in tickers:
+#        output['ticker'] = scrapTicker(driver, ticker)
