@@ -87,11 +87,12 @@ class scrapYahoo:
     # Get the page in driver -> opens directly in Income Statement tab
     def get_page(self, ticker):
         self.driver.get(self.webpage+ticker+'/financials?p='+ticker)
+        self.expand_all()
     
     # Get the desired tab
     def set_tab(self, tab):
         self.driver.find_element(By.XPATH, "//a[contains(@href, '"+tab+"')]").click()
-
+        self.expand_all()
 
     # Organize data by quarters in page and wait for it to load
     def set_quarterly(self):
@@ -102,9 +103,23 @@ class scrapYahoo:
         # Wait for elements to load -> TODO find a better option for this wait
         time.sleep(5)
 
+    def expand_all(self):
+        try:
+            expandButton = WebDriverWait(self.driver, 30).until(
+                EC.presence_of_element_located((By.XPATH, "//span[starts-with(text(), 'Expand')]"))
+            )
+            expandButton.click()
+        except TimeoutException:
+            try:
+                WebDriverWait(self.driver, 2).until(
+                    EC.presence_of_element_located((By.XPATH, "//span[starts-with(text(), 'Collapse')]"))
+                )
+            except TimeoutError:
+                raise TimeoutError
+
     # Find desired field and return the row data
     def get_field_row_values(self, field):
-        field_cell = WebDriverWait(self.driver, 10).until(
+        field_cell = WebDriverWait(self.driver, 2).until(
             EC.presence_of_element_located((By.XPATH, "//*[@title='"+field+"']"))
         )
         # Get all first order divs (columns) from second parent (row)
@@ -114,17 +129,25 @@ class scrapYahoo:
 
     # Parse the data if it has TTM column in it
     # Q0 is the most recent quarter. Each index represents the data from index-quarters back
-    def parse_TTM_quarters(self, elements):
+    def parse_row(self, elements):
         del(elements[1:3])
         fieldName = elements[0]
         values = [int(num.replace(',', '')) for num in elements[1:]]
-        return {'TTM': values[0],
-                'Q0': values[1],
-                'Q1': values[2],
-                'Q2': values[3],
-                'Q3': values[4],
-                'Q4': values[5]
-                }
+        if len(values) == 6:
+            return {'TTM': values[0],
+                    'Q0': values[1],
+                    'Q1': values[2],
+                    'Q2': values[3],
+                    'Q3': values[4],
+                    'Q4': values[5]
+                    }
+        else:
+            return {'Q0': values[0],
+                    'Q1': values[1],
+                    'Q2': values[2],
+                    'Q3': values[3],
+                    'Q4': values[4]
+                    }
                 
     
     # Scrap routine to get all the desired data
@@ -144,7 +167,7 @@ class scrapYahoo:
                     print(field)
                     try: 
                         data = self.get_field_row_values(field)
-                        self.output[ticker][field] = self.parse_TTM_quarters(data)
+                        self.output[ticker][field] = self.parse_row(data)
                         self.fields.remove(field)
                         print(self.output)
                     except TimeoutException:
