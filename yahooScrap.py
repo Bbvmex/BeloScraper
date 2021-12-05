@@ -70,7 +70,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.firefox.options import Options
 import time
+from datetime import datetime
+import csv
 
 def parseNumber(numberList):
     return [int(num.replace(',', '')) for num in numberList]
@@ -83,6 +86,7 @@ class scrapYahoo:
         self.webpage = 'https://finance.yahoo.com/quote/'
         self.tabs = ['financials', 'balance-sheet', 'cash-flow']
         self.output = {}
+        self.dates = {}
     
     # Get the page in driver -> opens directly in Income Statement tab
     def get_page(self, ticker):
@@ -102,7 +106,7 @@ class scrapYahoo:
         quarterlyButton.click()
         # Wait for elements to load -> TODO find a better option for this wait
         time.sleep(5)
-
+    
     def expand_all(self):
         time.sleep(2)
         try:
@@ -118,6 +122,21 @@ class scrapYahoo:
             except TimeoutError:
                 raise TimeoutError
 
+    # Saves the dates of each column in self.dates to add to the output
+    def get_dates(self):
+        field_cell = WebDriverWait(self.driver, 2).until(
+            EC.presence_of_element_located((By.XPATH, "//span[starts-with(text(), 'Breakdown')]"))
+        )
+        cols = field_cell.find_elements(By.XPATH, '../..//div')
+        elements = [col.text for col in cols]
+        values = [datetime.strftime(datetime.strptime(date, "%m/%d/%Y"), "%Y-%d-%m") for date in elements[-5:]]
+        self.dates = {'Q0': values[-5],
+                    'Q1': values[-4],
+                    'Q2': values[-3],
+                    'Q3': values[-2],
+                    'Q4': values[-1]
+                    }
+
     # Find desired field and return the row data
     def get_field_row_values(self, field):
         field_cell = WebDriverWait(self.driver, 2).until(
@@ -128,64 +147,80 @@ class scrapYahoo:
         elements = [col.text for col in cols]
         return elements
 
-    # Parse the data if it has TTM column in it
     # Q0 is the most recent quarter. Each index represents the data from index-quarters back
     def parse_row(self, elements):
         del(elements[1:3])
-        values = [int(num.replace(',', '')) for num in elements[1:]]
-        if len(values) == 6:
-            return {'TTM': values[0],
-                    'Q0': values[1],
-                    'Q1': values[2],
-                    'Q2': values[3],
-                    'Q3': values[4],
-                    'Q4': values[5]
-                    }
-        else:
-            return {'Q0': values[0],
-                    'Q1': values[1],
-                    'Q2': values[2],
-                    'Q3': values[3],
-                    'Q4': values[4]
-                    }
-                
+        values = [int(num.replace(',', ''))*1000 for num in elements[1:]]
+        return {'Q0': values[-5],
+                'Q1': values[-4],
+                'Q2': values[-3],
+                'Q3': values[-2],
+                'Q4': values[-1]
+                }
     
     # Scrap routine to get all the desired data
-    def scrap_page(self):
+    def scrap_data(self):
         for ticker in self.tickers:
             print(ticker)
             self.output[ticker] = {}
+            self.output[ticker]['scrapedate'] = datetime.strftime(datetime.now(), "%Y-%m-%d")
             fieldsLeft = self.fields.copy()
             self.get_page(ticker)
             for tab in self.tabs:
-                print(tab)
                 # Skip default tab
                 if tab != 'financials':
                     self.set_tab(tab)
                 self.set_quarterly()
+                self.get_dates()
                 for field in fieldsLeft:
                     print(field)
                     self.output[ticker][field] = {}
                     try: 
                         data = self.get_field_row_values(field)
-                        self.output[ticker][field] = self.parse_row(data)
+                        self.output[ticker][field]['quarters'] = self.parse_row(data)
+                        self.output[ticker][field]['dates'] = self.dates
                         fieldsLeft.remove(field)
-                        print(self.output)
                     except TimeoutException:
-                        next
+                        continue
         self.driver.quit()
         return self.output
-                
+
+    # Generate CSV file with the scraped data -> external data or filename optional
+    def generate_CSV(self, parsedData=None, outFile = 'output.csv'):
+        if not parsedData:
+            parsedData = self.output
+        csv_list = []
+        for ticker in parsedData:
+            scrapeDate = parsedData[ticker]['scrapedate']
+            for field in parsedData[ticker]:
+                if field == 'scrapedate' or parsedData[ticker][field] == {}:
+                    continue
+                for quarter in parsedData[ticker][field]['quarters']:
+                    value = parsedData[ticker][field]['quarters'][quarter]
+                    date = parsedData[ticker][field]['dates'][quarter]
+                    csv_list.append([ticker, field, value, date, scrapeDate])
+        fields = ['Ticker', 'Field', 'Value', 'End Date', 'Scrape Date']
+        with open(outFile, 'w') as outputFile:
+            wr = csv.writer(outputFile)
+            wr.writerow(fields)
+            wr.writerows(csv_list)
+
+          
 
 
 if __name__ == '__main__':
     output = {}
     tickers = ["JNJ", "BRK-B", "JPM", "MMM", "ABBV", "DIS", "T", "PG", "LOW", "CI"]
+    #tickers = ["JNJ"]
     fields = ["Operating Income", "Net Income from Continuing Operations", "Retained Earnings", "Changes in Cash", "Net Borrowings"]
-    driver = webdriver.Firefox()
-    scraper = scrapYahoo(driver, tickers, fields)
+
+    options = Options()
+    options.add_argument("--headless")
+    with webdriver.Firefox(options=options) as driver:
+        scraper = scrapYahoo(driver, tickers, fields)
+        scraper.scrap_data()
+        scraper.generate_CSV()
 #    scraper.get_page(scraper.tickers[0])
 #    scraper.set_quarterly()
 #    elements = scraper.get_field_row_values(scraper.fields[0])
-    print(scraper.scrap_page())
-
+#TODO format result as expected from Belo
