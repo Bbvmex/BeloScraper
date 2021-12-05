@@ -180,13 +180,10 @@ class scrapYahoo:
 if __name__ == '__main__':
     output = {}
     tickers = ["JNJ", "BRK-B", "JPM", "MMM", "ABBV", "DIS", "T", "PG", "LOW", "CI"]
-    Fields = ["Operating Income", "Net Income From Continuing Operations", "Retained Earnings", "Changes In Cash", "Net Borrowings"]
+    Fields = ["Operating Income", "Net Income from Continuing Operations", "Retained Earnings", "Changes in Cash", "Net Borrowings"]
     driver = webdriver.Firefox()
     scraper = scrapYahoo(driver, ['JNJ'], Fields)
 #    scraper.get_page(scraper.tickers[0])
 #    scraper.set_quarterly()
 #    elements = scraper.get_field_row_values(scraper.fields[0])
-    print(scraper.scrap_page())
-
-#    for ticker in tickers:
-#        output['ticker'] = scrapTicker(driver, ticker)
+    
