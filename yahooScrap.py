@@ -104,6 +104,7 @@ class scrapYahoo:
         time.sleep(5)
 
     def expand_all(self):
+        time.sleep(2)
         try:
             expandButton = WebDriverWait(self.driver, 30).until(
                 EC.presence_of_element_located((By.XPATH, "//span[starts-with(text(), 'Expand')]"))
@@ -131,7 +132,6 @@ class scrapYahoo:
     # Q0 is the most recent quarter. Each index represents the data from index-quarters back
     def parse_row(self, elements):
         del(elements[1:3])
-        fieldName = elements[0]
         values = [int(num.replace(',', '')) for num in elements[1:]]
         if len(values) == 6:
             return {'TTM': values[0],
@@ -155,6 +155,7 @@ class scrapYahoo:
         for ticker in self.tickers:
             print(ticker)
             self.output[ticker] = {}
+            fieldsLeft = self.fields.copy()
             self.get_page(ticker)
             for tab in self.tabs:
                 print(tab)
@@ -162,13 +163,13 @@ class scrapYahoo:
                 if tab != 'financials':
                     self.set_tab(tab)
                 self.set_quarterly()
-                fieldsLeft = self.fields
                 for field in fieldsLeft:
                     print(field)
+                    self.output[ticker][field] = {}
                     try: 
                         data = self.get_field_row_values(field)
                         self.output[ticker][field] = self.parse_row(data)
-                        self.fields.remove(field)
+                        fieldsLeft.remove(field)
                         print(self.output)
                     except TimeoutException:
                         next
@@ -180,10 +181,11 @@ class scrapYahoo:
 if __name__ == '__main__':
     output = {}
     tickers = ["JNJ", "BRK-B", "JPM", "MMM", "ABBV", "DIS", "T", "PG", "LOW", "CI"]
-    Fields = ["Operating Income", "Net Income from Continuing Operations", "Retained Earnings", "Changes in Cash", "Net Borrowings"]
+    fields = ["Operating Income", "Net Income from Continuing Operations", "Retained Earnings", "Changes in Cash", "Net Borrowings"]
     driver = webdriver.Firefox()
-    scraper = scrapYahoo(driver, ['JNJ'], Fields)
+    scraper = scrapYahoo(driver, tickers, fields)
 #    scraper.get_page(scraper.tickers[0])
 #    scraper.set_quarterly()
 #    elements = scraper.get_field_row_values(scraper.fields[0])
-    
+    print(scraper.scrap_page())
+
