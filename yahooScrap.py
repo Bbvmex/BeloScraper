@@ -224,19 +224,24 @@ class scrapYahoo:
 
 
 if __name__ == '__main__':
+    # Main routine, create a scraper Object and start scraping the fields and tickers bellow
+    # .generate_csv can receive a filename to output the data
+    # Using GeckoDriver in headless mode
+    # TODO Add command line parameters to run the program
+    # TODO More tries to catch possible problems
+    # TODO make tests for the program
+    # TODO Evaluate sleep code and speed up the scraping
+    # TODO pass website and query as parameter for the object
     output = {}
     tickers = ["JNJ", "BRK-B", "JPM", "MMM", "ABBV", "DIS", "T", "PG", "LOW", "CI"]
-    #tickers = ["JNJ"]
     fields = ["Operating Income", "Net Income from Continuing Operations", "Retained Earnings", "Changes in Cash", "Net Borrowings"]
 
     options = Options()
     options.add_argument("--headless")
+
     with webdriver.Firefox(options=options) as driver:
         driver.implicitly_wait(10)
         scraper = scrapYahoo(driver, tickers, fields)
         scraper.scrap_data()
         scraper.generate_CSV(outFile = 'output7.csv')
-#    scraper.get_page(scraper.tickers[0])
-#    scraper.set_quarterly()
-#    elements = scraper.get_field_row_values(scraper.fields[0])
-#TODO format result as expected from Belo
+
