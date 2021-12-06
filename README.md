@@ -17,3 +17,7 @@ Observations:
 - The field Net Borrowings was not found in any ticker
 - The data is outputed as a .csv file
 - TODOs were added of steps to improve code
+
+To run:
+run yahooScrap.py
+Parameters are passed directly through code as the command line paremeters have not been implemented yet
