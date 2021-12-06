@@ -100,13 +100,26 @@ class scrapYahoo:
 
     # Organize data by quarters in page and wait for it to load
     def set_quarterly(self):
+        # Sometimes it gets th button before the page is changed, getting a stale reference -> TODO find a better option for this wait
+        time.sleep(2)
         quarterlyButton = WebDriverWait(self.driver, 30).until(
             EC.presence_of_element_located((By.XPATH, "//span[starts-with(text(), 'Quarterly')]"))
         )
-        quarterlyButton.click()
+        quarterlyButton.click()        
         # Wait for elements to load -> TODO find a better option for this wait
         time.sleep(5)
-    
+        # Checks if the annual not its a link
+        # If not, repeat the procedure
+        annualButton = WebDriverWait(self.driver, 30).until(
+            EC.presence_of_element_located((By.XPATH, "//span[starts-with(text(), 'Annual')]"))
+        )
+        annualButton = annualButton.find_element(By.XPATH, '../..')
+        if '$linkColor' in annualButton.get_attribute('class'):
+            return
+        else:
+            self.set_quarterly()
+
+
     def expand_all(self):
         time.sleep(2)
         try:
@@ -124,11 +137,13 @@ class scrapYahoo:
 
     # Saves the dates of each column in self.dates to add to the output
     def get_dates(self):
+        
         field_cell = WebDriverWait(self.driver, 2).until(
             EC.presence_of_element_located((By.XPATH, "//span[starts-with(text(), 'Breakdown')]"))
         )
         cols = field_cell.find_elements(By.XPATH, '../..//div')
         elements = [col.text for col in cols]
+        print(elements)
         values = [datetime.strftime(datetime.strptime(date, "%m/%d/%Y"), "%Y-%d-%m") for date in elements[-5:]]
         self.dates = {'Q0': values[-5],
                     'Q1': values[-4],
@@ -200,7 +215,7 @@ class scrapYahoo:
                     date = parsedData[ticker][field]['dates'][quarter]
                     csv_list.append([ticker, field, value, date, scrapeDate])
         fields = ['Ticker', 'Field', 'Value', 'End Date', 'Scrape Date']
-        with open(outFile, 'w') as outputFile:
+        with open(outFile, 'w', newline='') as outputFile:
             wr = csv.writer(outputFile)
             wr.writerow(fields)
             wr.writerows(csv_list)
@@ -217,9 +232,10 @@ if __name__ == '__main__':
     options = Options()
     options.add_argument("--headless")
     with webdriver.Firefox(options=options) as driver:
+        driver.implicitly_wait(10)
         scraper = scrapYahoo(driver, tickers, fields)
         scraper.scrap_data()
-        scraper.generate_CSV()
+        scraper.generate_CSV(outFile = 'output7.csv')
 #    scraper.get_page(scraper.tickers[0])
 #    scraper.set_quarterly()
 #    elements = scraper.get_field_row_values(scraper.fields[0])
